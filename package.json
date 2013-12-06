@@ -1,0 +1,35 @@
+{
+  "name": "cascadia-express",
+  "version": "0.0.1",
+  "description": "A cascading template system for Express.",
+  "homepage": "https://github.com/iancmyers/cascadia-express",
+  "main": "lib/cascadia.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.test.js"
+  },
+  "author": {
+    "name": "Ian Christian Myers",
+    "email": "ian@iancmyers.com",
+    "url": "http://iancmyers.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iancmyers/cascadia-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iancmyers/cascadia-express/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "express": "3.*"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "supertest": "~0.8.2",
+    "expect.js": "~0.2.0",
+    "hogan-engine": "~0.9.2"
+  },
+  "dependencies": {
+    "underscore": "~1.5.2"
+  }
+}
