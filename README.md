@@ -36,7 +36,7 @@ var cascade = {
 
 This object tells Cascadia that for requests coming in at `test.example.com`, it should first look in `/views/test.example.com` for a given template, then in `/views/base`. For request coming in at `special-test.example.com`, it will look in `/views/special-test.example.com`, then `/views/test.example.com`, then `/views/base`.
 
-Once you've settled on a cascade chain for each of your hostnames, you will need to call `cascadia.init`:
+Once you've settled on a cascade chain for each of your hostnames, you will need to call `cascadia.init` with two parameters to initialize the middleware. The first is the cascade we just defined, the second is a reference to the Express app:
 
 ```js
 app.use(cascadia.init(cascade, app));
