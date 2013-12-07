@@ -1,6 +1,6 @@
 {
   "name": "cascadia-express",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A cascading template system for Express.",
   "homepage": "https://github.com/iancmyers/cascadia-express",
   "main": "lib/cascadia.js",
